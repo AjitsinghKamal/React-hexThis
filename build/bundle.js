@@ -21860,10 +21860,9 @@
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'app-bg', style: { background: 'rgb(' + rgb + ')' } },
-	        _react2.default.createElement('div', { className: 'card center dum-bg' }),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'card center input-box', style: { background: 'rgba(' + rgb + ',0.6)' } },
+	          { className: 'card center input-box', style: { background: 'rgba(242,242,242,0.4)' } },
 	          _react2.default.createElement(_HexInput2.default, { value: hex, convert: this._handleHex }),
 	          _react2.default.createElement(_RgbInput2.default, { value: rgb, convert: this._handleRgb })
 	        ),

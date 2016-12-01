@@ -55,8 +55,7 @@ class AppContainer extends React.Component{
     const rgb=this.state.rgb;
     return(
       <div className="app-bg" style={{background:`rgb(${rgb})`}}>
-        <div className="card center dum-bg"></div>
-        <div className="card center input-box" style={{background:`rgba(${rgb},0.6)`}}>
+        <div className="card center input-box" style={{background:'rgba(242,242,242,0.4)'}}>
           <HexInput value={hex} convert={this._handleHex}/>
           <RgbInput value={rgb} convert={this._handleRgb}/>
         </div>
